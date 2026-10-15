@@ -70,7 +70,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-zinc-800 py-8 text-center text-sm text-zinc-500">
-        © {new Date().getFullYear()} Твоё Имя. Сделано на Next.js.
+        © {new Date().getFullYear()} Александр. Сделано на Next.js.
       </footer>
     </main>
   );

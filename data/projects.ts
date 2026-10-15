@@ -11,7 +11,7 @@ export const projects: Project[] = [
     title: "Гладкая Ты",
     description: "Салон эпиляции",
     link: "https://гладкая-ты.рф/",
-    image: "images/project-1.png",
+    image: "/images/project-1.png",
     tags: ["HTML", "CSS", "JavaScript"],
   },
   {

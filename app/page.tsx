@@ -58,7 +58,7 @@ export default function Home() {
             GitHub
           </a>
           <a
-            href="https://t.me/@Shuuric"
+            href="tg://resolve?domain=Shuuric"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-zinc-700 text-white px-6 py-3 rounded-full hover:border-lime-400 hover:text-lime-400 transition"

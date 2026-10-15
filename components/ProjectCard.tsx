@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Project } from "@/data/projects";
+import { basePath } from "@/lib/basePath";
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
@@ -11,7 +12,7 @@ export default function ProjectCard({ project }: { project: Project }) {
     >
       <div className="relative aspect-video overflow-hidden">
         <Image
-          src={project.image}
+          src={`${basePath}${project.image}`}
           alt={project.title}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-500"
